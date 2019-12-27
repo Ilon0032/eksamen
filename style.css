@@ -12,7 +12,12 @@ img {
 body {
     background-color: white;
     margin: 0;
-    max-width: 375px;
+    /*    max-width: 375px;*/
+}
+
+header {
+    position: relative;
+    background-color: white;
 }
 
 /***MENU OG HEADER INDSTILLINGER***/
@@ -21,6 +26,10 @@ body {
     display: inline-block;
     cursor: pointer;
 
+}
+
+#menu {
+    right: auto
 }
 
 .bar1,
@@ -47,10 +56,10 @@ body {
     transform: rotate(45deg) translate(-9px, -8px);
 }
 
-/*
-.nav_hide {
+
+.hide_nav {
     display: none;
-}*/
+}
 
 
 
@@ -97,12 +106,34 @@ a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    text-align: center;
+
 
 }
 
 /***BAGGRUND INDSTILLINGER***/
 /***CV INDSTILLINGER***/
 /***PORTFOLIO INDSTILLINGER***/
+
+.cover {
+    background-image: url(billeder/kul.jpg);
+    width: 100vw;
+    height: 350px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
+
 /***SPLASH INDSTILLINGER***/
 /***HOME INDSTILLINGER***/
 /***MEDIAQUERIES INDSTILLINGER***/
+
+@media only screen and (min-width: 600px) {
+    a {
+        float: left;
+    }
+
+    .burgermenu {
+        display: none;
+    }
+}
