@@ -106,7 +106,7 @@ nav a {
 
 
 /***-----------------------------------------------------------PORTFOLIO INDSTILLINGER-----------------------------------------------------------***/
-/*typewriter effekt*/
+/*typewriter effekt på alle */
 #animation_box_portfolio,
 #animation_box_home,
 #animation_box_cv {
@@ -195,7 +195,19 @@ nav a {
 
 
 /***SPLASH INDSTILLINGER***/
-/***HOME INDSTILLINGER***/
+/***----------------------------------FOOTER INDSTILLINGER----------------------------------------***/
+footer {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+
+}
+
 /***MEDIAQUERIES INDSTILLINGER***/
 
 @media only screen and (min-width: 600px) {
