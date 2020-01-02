@@ -169,6 +169,12 @@ nav a {
     text-align: center;
 }
 
+.flexbox_portfolio a:hover {
+    text-decoration: none;
+    opacity: 0.6;
+    color: darkgray;
+}
+
 .web_section,
 .ux_section,
 .animation_section,
@@ -196,7 +202,10 @@ nav a {
     width: 70px;
 }
 
-
+.moodboard img {
+    height: 148px;
+    width: 204px;
+}
 
 .assetliste {}
 
@@ -295,26 +304,37 @@ footer a {
     }
 
     .splashbillede img {
-        height: 112px;
-        width: 200px;
+        height: 224px;
+        width: 400px;
     }
 
     .hjemmeside_billede img {
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .moodboard img {
+        height: 444px;
+        width: 636px;
     }
 
     footer {
         display: flex;
         padding: 10px;
         justify-content: space-around;
+    }
 
+    footer a:hover {
+        text-decoration: none;
+        opacity: 0.6;
+        color: white;
     }
 
     footer a {
-        color: #000;
         text-decoration: none;
         padding-right: 45px;
+        opacity: 0.6;
+        color: black;
 
     }
 }
