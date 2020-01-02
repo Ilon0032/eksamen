@@ -1,4 +1,4 @@
-/***GENERELLE INDSTILLINGER***/
+/***-------------------------------------------------------GENERELLE INDSTILLINGER-------------------------------------------------------***/
 
 * {
     box-sizing: border-box;
@@ -21,14 +21,50 @@ header {
 }
 
 
-
 h1,
 h2,
 a {
     font-family: 'Poiret One', cursive;
 }
 
-/***MENU OG HEADER INDSTILLINGER***/
+/*** -----------------------------------------------------------MENU----------------------------------------------------------- ***/
+
+
+nav {
+
+    position: sticky;
+    /*    align-content: center;*/
+}
+
+/* unvisited link */
+nav a:link {
+    color: black;
+}
+
+
+
+/* mouse over link */
+nav a:hover {
+    background-color: white;
+    opacity: 0.6;
+    color: gray;
+
+}
+
+/* selected link */
+nav a:active {
+    color: black;
+}
+
+
+nav a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+
+}
 
 .burgermenu {
     display: inline-block;
@@ -37,11 +73,6 @@ a {
    right: 0;*/
 }
 
-/*
-#menu {
-    right: auto
-}
-*/
 
 .bar1,
 .bar2,
@@ -73,81 +104,62 @@ a {
 }
 
 
-#animation_box {
+
+/***-----------------------------------------------------------PORTFOLIO INDSTILLINGER-----------------------------------------------------------***/
+/*typewriter effekt*/
+#animation_box_portfolio,
+#animation_box_home,
+#animation_box_cv {
     display: flex;
     justify-content: center;
 }
 
-.animation_text {
-    width: 200px;
-    height: 40px;
-    background-color: white;
-    text-align: center;
-    margin: 10px;
-}
+#animation_box_portfolio .typewriter,
+#animation_box_home .typewriter,
+#animation_box_cv .typewriter {
+    color: white;
+    font-family: 'Poiret One', cursive;
 
-/*
-#cover_billede a {
-    padding: 25px;
-
-}
-
-#cover_billede a:hover {
-    background-color: white;
-    opacity: 0.6;
-    color: gray;
-
-}
-*/
-
-
-
-
-nav {
-
-    position: sticky;
-    /*    align-content: center;*/
-}
-
-/* unvisited link */
-nav a:link {
-    color: black;
-}
-
-/*
- visited link
-nav a:visited {
-    text-decoration-line: underline;
-    color: black;
-}
-*/
-
-/* mouse over link */
-nav a:hover {
-    background-color: white;
-    opacity: 0.6;
-    color: gray;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
 
 }
 
-/* selected link */
-nav a:active {
-    color: black;
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 90%
+    }
 }
 
+/* The typewriter cursor effect */
+@keyframes blink-caret {
 
-nav a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align: center;
+    from,
+    to {
+        border-color: transparent
+    }
 
+    50% {
+        border-color: white;
+    }
 }
 
-/***BAGGRUND INDSTILLINGER***/
-/***CV INDSTILLINGER***/
-/***PORTFOLIO INDSTILLINGER***/
 .flexbox_portfolio {
     display: flex;
     flex-direction: column;
@@ -246,6 +258,16 @@ nav a {
         background-color: white;
         width: 850px;
         padding: 10px;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 25%
+        }
     }
 
     body {
