@@ -23,7 +23,8 @@ header {
 
 h1,
 h2,
-a {
+a,
+footer p {
     font-family: 'Poiret One', cursive;
 }
 
@@ -322,12 +323,18 @@ footer a {
 
     }
 
+    .flexbox_cv {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
 
     .web_section,
     .ux_section,
     .animation_section,
     .content_section,
-    .flexbox_cv {
+    .cv_section {
         border: solid darkgrey 2px;
         background-color: white;
         width: 850px;
