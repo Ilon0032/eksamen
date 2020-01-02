@@ -143,7 +143,7 @@ nav a {
     }
 
     to {
-        width: 90%
+        width: 100%
     }
 }
 
@@ -186,8 +186,15 @@ nav a {
 
 }
 
+.splashbillede img {
+    height: 112px;
+    width: 200px;
+}
 
-
+.hjemmeside_billede img {
+    height: 70px;
+    width: 70px;
+}
 
 
 
@@ -198,13 +205,15 @@ nav a {
 /***----------------------------------FOOTER INDSTILLINGER----------------------------------------***/
 footer {
     display: flex;
-    padding: 10px;
-    justify-content: space-between;
+
+    justify-content: space-around;
+
 }
 
 footer a {
     color: #000;
     text-decoration: none;
+
 
 }
 
@@ -224,7 +233,7 @@ footer a {
         padding: 20px 60px 20px 60px;
     }
 
-    a {
+    nav a {
         float: left;
         padding: 20px 60px 20px 60px;
     }
@@ -256,11 +265,6 @@ footer a {
 
     }
 
-    /*
-    .flexbox_portfolio h2 {
-        border-bottom-color: gray;
-    }
-*/
 
     .web_section,
     .ux_section,
@@ -270,7 +274,11 @@ footer a {
         background-color: white;
         width: 850px;
         padding: 10px;
+
+
     }
+
+
 
     @keyframes typing {
         from {
@@ -286,4 +294,27 @@ footer a {
         max-width: 1440px;
     }
 
+    .splashbillede img {
+        height: 112px;
+        width: 200px;
+    }
+
+    .hjemmeside_billede img {
+        height: 70px;
+        width: 70px;
+    }
+
+    footer {
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+
+    }
+
+    footer a {
+        color: #000;
+        text-decoration: none;
+        padding-right: 45px;
+
+    }
 }
