@@ -32,6 +32,8 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+
 /*** -----------------------------------------------------------MENU----------------------------------------------------------- ***/
 
 
@@ -240,6 +242,16 @@ nav a {
 .moodboard img {
     height: 148px;
     width: 204px;
+}
+
+.koebsflow img {
+    height: 240px;
+    width: 267px;
+}
+
+.sirmixalot img {
+    height: 112px;
+    width: 200px;
 }
 
 .assetliste {}
