@@ -107,7 +107,35 @@ nav a {
     display: none;
 }
 
+/***-----------------------------------------------------------HOME INDSTILLINGER-----------------------------------------------------------***/
+.flexbox_home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.flexbox_home a:hover {
+    text-decoration: none;
+    opacity: 0.6;
+    color: darkgray;
+}
+
+.flexbox_home a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.home_section {
+    border: solid white 2px;
+    background-color: white;
+    width: 325px;
+    padding: 10px;
+    margin: 10px;
+}
 
 /***-----------------------------------------------------------PORTFOLIO INDSTILLINGER-----------------------------------------------------------***/
 /*typewriter effekt på alle */
@@ -179,6 +207,12 @@ nav a {
     color: darkgray;
 }
 
+.flexbox_portfolio a {
+    color: #000;
+    text-decoration: none;
+
+}
+
 .web_section,
 .ux_section,
 .animation_section,
@@ -190,11 +224,7 @@ nav a {
     margin: 10px;
 }
 
-.flexbox_portfolio a {
-    color: #000;
-    text-decoration: none;
 
-}
 
 .splashbillede img {
     height: 112px;
@@ -213,8 +243,36 @@ nav a {
 
 .assetliste {}
 
+/***-----------------------------------------------------------CV INDSTILLINGER-----------------------------------------------------------***/
+.flexbox_cv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-/***SPLASH INDSTILLINGER***/
+.cv_section {
+    border: solid white 2px;
+    background-color: white;
+    width: 325px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.flexbox_cv a:hover {
+    text-decoration: none;
+    opacity: 0.6;
+    color: darkgray;
+}
+
+.flexbox_cv a {
+    color: #000;
+    text-decoration: none;
+
+}
+
 /***----------------------------------FOOTER INDSTILLINGER----------------------------------------***/
 footer {
     display: flex;
@@ -230,7 +288,7 @@ footer a {
 
 }
 
-/***MEDIAQUERIES INDSTILLINGER***/
+/***----------------------------------------------MEDIAQUERIES INDSTILLINGER-----------------------------------------------------***/
 
 @media only screen and (min-width: 600px) {
     #menu {
@@ -255,20 +313,6 @@ footer a {
         display: none;
     }
 
-    #cover_billede {
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-    }
-
-    .cover {
-        align-self: center;
-        background-color: white;
-        width: 1000px;
-        height: 650px;
-        margin-top: 10px
-            /*    background-attachment: scroll;*/
-    }
 
     .flexbox_portfolio {
         display: flex;
@@ -282,7 +326,8 @@ footer a {
     .web_section,
     .ux_section,
     .animation_section,
-    .content_section {
+    .content_section,
+    .flexbox_cv {
         border: solid darkgrey 2px;
         background-color: white;
         width: 850px;
