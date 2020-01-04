@@ -23,6 +23,7 @@ header {
 
 h1,
 h2,
+h3,
 a,
 footer p {
     font-family: 'Poiret One', cursive;
@@ -229,17 +230,8 @@ nav a {
 
 
 
-.splashbillede img {
-    height: 112px;
-    width: 200px;
-}
-
-.hjemmeside_billede img {
-    height: 70px;
-    width: 70px;
-}
-
-.moodboard img {
+.moodboard img,
+.moodboard_spil img {
     height: 148px;
     width: 204px;
 }
@@ -249,12 +241,31 @@ nav a {
     width: 267px;
 }
 
-.sirmixalot img {
+.sirmixalot img,
+.splashbillede img {
     height: 112px;
     width: 200px;
 }
 
-.assetliste {}
+.kea_event_logo img {
+    height: 56px;
+    width: 100px;
+}
+
+.app_forside img {
+    height: 240px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.spil img,
+.assetliste img,
+.dokumentationsside_spil img,
+.hjemmeside_billede img {
+    height: 108px;
+    width: 204px;
+}
+
 
 /***-----------------------------------------------------------CV INDSTILLINGER-----------------------------------------------------------***/
 .flexbox_cv {
@@ -376,15 +387,42 @@ footer a {
         width: 400px;
     }
 
-    .hjemmeside_billede img {
-        height: 100px;
-        width: 100px;
-    }
 
-    .moodboard img {
+    .moodboard img,
+    .moodboard_spil img {
         height: 444px;
         width: 636px;
     }
+
+    .koebsflow img {
+        height: 480px;
+        width: 534px;
+    }
+
+    .sirmixalot img {
+        height: 168px;
+        width: 300px;
+    }
+
+    .kea_event_logo img {
+        height: 112px;
+        width: 200px;
+    }
+
+    .app_forside img {
+        height: 480px;
+        width: 240px;
+        margin-top: 30px;
+    }
+
+    .dokumentationsside_spil img,
+    .spil img,
+    .hjemmeside_billede img {
+        height: 216px;
+        width: 408px;
+    }
+
+
 
     footer {
         display: flex;
