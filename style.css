@@ -266,6 +266,16 @@ nav a {
     width: 204px;
 }
 
+.spilskaerme img {
+    height: 150px;
+    width: 300px;
+    padding: 5px;
+}
+
+.annonce img {
+    width: 300px;
+    height: 200px;
+}
 
 /***-----------------------------------------------------------CV INDSTILLINGER-----------------------------------------------------------***/
 .flexbox_cv {
@@ -417,12 +427,31 @@ footer a {
 
     .dokumentationsside_spil img,
     .spil img,
-    .hjemmeside_billede img {
+    .hjemmeside_billede img,
+        {
         height: 216px;
         width: 408px;
     }
 
+    .assetliste img {
+        height: 100px;
+        width: 100px;
+        flex-wrap: nowrap;
+        padding-right: 10px;
+        padding-left: 10px;
 
+    }
+
+    .spilskaerme img {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .annonce img {
+        width: 500px;
+        height: 300px;
+    }
 
     footer {
         display: flex;
