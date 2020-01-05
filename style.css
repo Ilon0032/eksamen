@@ -354,6 +354,11 @@ nav a {
 
 }
 
+.foto img {
+    width: 211px;
+    height: 317px;
+}
+
 /***----------------------------------FOOTER INDSTILLINGER----------------------------------------***/
 footer {
     display: flex;
@@ -464,8 +469,8 @@ footer a {
     }
 
     .app_forside img {
-        height: 480px;
-        width: 240px;
+        height: 240px;
+        width: 120px;
         margin-top: 30px;
     }
 
