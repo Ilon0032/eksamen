@@ -29,11 +29,14 @@ footer p {
     font-family: 'Poiret One', cursive;
 }
 
-p {
+p,
+li {
     font-family: 'Open Sans', sans-serif;
 }
 
-
+li {
+    text-align: left;
+}
 
 /*** -----------------------------------------------------------MENU----------------------------------------------------------- ***/
 
@@ -277,6 +280,12 @@ nav a {
     height: 200px;
 }
 
+.research img {
+    height: 164px;
+    width: 300px;
+    padding: 5px;
+}
+
 /***-----------------------------------------------------------CV INDSTILLINGER-----------------------------------------------------------***/
 .flexbox_cv {
     display: flex;
@@ -425,13 +434,19 @@ footer a {
         margin-top: 30px;
     }
 
-    .dokumentationsside_spil img,
+    /*
+    .dokumentationsside_spil img {
+        height: 112px;
+        width: 200px;
+    }
+
     .spil img,
     .hjemmeside_billede img,
         {
-        height: 216px;
-        width: 408px;
+        height: 436px;
+        width: 816px;
     }
+*/
 
     .assetliste img {
         height: 100px;
@@ -452,6 +467,13 @@ footer a {
         width: 500px;
         height: 300px;
     }
+
+    .research img {
+        height: 393px;
+        width: 700px;
+        padding: 10px;
+    }
+
 
     footer {
         display: flex;
