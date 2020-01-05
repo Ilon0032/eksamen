@@ -38,6 +38,35 @@ li {
     text-align: left;
 }
 
+/****----------------------------------------SCROLL TO TOP----------------------------------------------***/
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    right: 30px;
+
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 5px;
+
+
+    font-size: 25px;
+
+}
+
+#myBtn:hover {
+    background-color: white;
+    opacity: 0.6;
+    /* Add a dark-grey background on hover */
+}
+
 /*** -----------------------------------------------------------MENU----------------------------------------------------------- ***/
 
 
@@ -376,7 +405,8 @@ footer a {
     .ux_section,
     .animation_section,
     .content_section,
-    .cv_section {
+    .cv_section,
+    .home_section {
         border: solid darkgrey 2px;
         background-color: white;
         width: 850px;
