@@ -417,7 +417,9 @@ footer a {
     nav a {
         float: left;
         padding: 20px 60px 20px 60px;
+        margin-top: 20px;
     }
+
 
 
     .burgermenu {
@@ -588,7 +590,7 @@ footer a {
 
     .logo_forside {
         position: absolute;
-        top: 38%;
+        top: 37%;
         left: 37%;
         font-size: 30px;
 
