@@ -170,9 +170,9 @@ nav a {
 }
 
 .home_section {
-    border: solid white 2px;
     background-color: white;
     width: 325px;
+    height: 600px;
     padding: 10px;
     margin: 30px;
     position: relative;
@@ -183,6 +183,7 @@ nav a {
     height: 250px;
     background-image: url(billeder/SVG/Asset%201.svg);
     margin-left: 20px;
+    margin-top: 115px;
 
     animation: turn 7s infinite linear;
 }
@@ -199,7 +200,7 @@ nav a {
 
 .logo_forside {
     position: absolute;
-    top: 33%;
+    top: 34.5%;
     left: 24%;
 }
 
@@ -283,7 +284,7 @@ nav a {
 #ux_section,
 #animation_section,
 #content_section {
-    border: solid white 2px;
+
     background-color: white;
     width: 325px;
     padding: 10px;
@@ -443,7 +444,7 @@ footer a {
     #content_section,
     .cv_section,
     .home_section {
-        border: solid darkgrey 2px;
+
         background-color: white;
         width: 850px;
         padding: 10px;
@@ -452,7 +453,7 @@ footer a {
     }
 
     .home_section {
-        border: solid darkgrey 2px;
+
         background-color: white;
         width: 850px;
         padding: 10px;
@@ -558,6 +559,8 @@ footer a {
         height: 500px;
         background-image: url(billeder/SVG/Asset%201.svg);
         margin-left: 150px;
+        margin-top: 45px;
+
 
         animation: turn 7s infinite linear;
     }
@@ -574,7 +577,7 @@ footer a {
 
     .logo_forside {
         position: absolute;
-        top: 34%;
+        top: 36%;
         left: 32%;
         font-size: 30px;
 
