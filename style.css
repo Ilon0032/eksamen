@@ -175,6 +175,7 @@ nav a {
     width: 325px;
     padding: 10px;
     margin: 30px;
+    position: relative;
 }
 
 .drejelogo {
@@ -198,8 +199,8 @@ nav a {
 
 .logo_forside {
     position: absolute;
-    top: 21%;
-    left: 28%;
+    top: 33%;
+    left: 24%;
 }
 
 /***-----------------------------------------------------------PORTFOLIO INDSTILLINGER-----------------------------------------------------------***/
@@ -450,7 +451,13 @@ footer a {
 
     }
 
-
+    .home_section {
+        border: solid darkgrey 2px;
+        background-color: white;
+        width: 850px;
+        padding: 10px;
+        position: relative;
+    }
 
     @keyframes typing {
         from {
@@ -567,8 +574,8 @@ footer a {
 
     .logo_forside {
         position: absolute;
-        top: 46%;
-        left: 39%;
+        top: 34%;
+        left: 32%;
         font-size: 30px;
 
     }
