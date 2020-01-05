@@ -174,20 +174,45 @@ nav a {
     background-color: white;
     width: 325px;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
+}
+
+.drejelogo {
+    width: 250px;
+    height: 250px;
+    background-image: url(billeder/SVG/Asset%201.svg);
+    margin-left: 20px;
+
+    animation: turn 7s infinite linear;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logo_forside {
+    position: absolute;
+    top: 21%;
+    left: 28%;
 }
 
 /***-----------------------------------------------------------PORTFOLIO INDSTILLINGER-----------------------------------------------------------***/
 /*typewriter effekt på alle */
 #animation_box_portfolio,
-#animation_box_home,
+
 #animation_box_cv {
     display: flex;
     justify-content: center;
 }
 
 #animation_box_portfolio .typewriter,
-#animation_box_home .typewriter,
+
 #animation_box_cv .typewriter {
     color: white;
     font-family: 'Poiret One', cursive;
@@ -519,6 +544,33 @@ footer a {
         display: flex;
         justify-content: center;
         width: 100vw;
+    }
+
+    .drejelogo {
+        width: 500px;
+        height: 500px;
+        background-image: url(billeder/SVG/Asset%201.svg);
+        margin-left: 150px;
+
+        animation: turn 7s infinite linear;
+    }
+
+    @keyframes turn {
+        0% {
+            transform: rotate(0);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .logo_forside {
+        position: absolute;
+        top: 46%;
+        left: 39%;
+        font-size: 30px;
+
     }
 
     footer {
