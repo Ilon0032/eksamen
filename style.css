@@ -36,7 +36,9 @@ li {
 
 li {
     text-align: left;
+    margin-left: 80px;
 }
+
 
 /****----------------------------------------SCROLL TO TOP----------------------------------------------***/
 #myBtn {
@@ -182,7 +184,7 @@ nav a {
     width: 250px;
     height: 250px;
     background-image: url(billeder/SVG/Asset%201.svg);
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 115px;
 
     animation: turn 7s infinite linear;
@@ -200,8 +202,8 @@ nav a {
 
 .logo_forside {
     position: absolute;
-    top: 34.5%;
-    left: 24%;
+    top: 35%;
+    left: 25%;
 }
 
 /***-----------------------------------------------------------PORTFOLIO INDSTILLINGER-----------------------------------------------------------***/
@@ -431,6 +433,14 @@ footer a {
 
     }
 
+    .flexbox_portfolio p {
+        width: 600px;
+        margin-left: 120px;
+        text-align: left;
+
+
+    }
+
     .flexbox_cv {
         display: flex;
         flex-direction: column;
@@ -455,7 +465,7 @@ footer a {
     .home_section {
 
         background-color: white;
-        width: 850px;
+        width: 100vw;
         padding: 10px;
         position: relative;
     }
@@ -552,13 +562,14 @@ footer a {
         display: flex;
         justify-content: center;
         width: 100vw;
+
     }
 
     .drejelogo {
         width: 500px;
         height: 500px;
         background-image: url(billeder/SVG/Asset%201.svg);
-        margin-left: 150px;
+        margin-left: 425px;
         margin-top: 45px;
 
 
@@ -577,8 +588,8 @@ footer a {
 
     .logo_forside {
         position: absolute;
-        top: 36%;
-        left: 32%;
+        top: 38%;
+        left: 37%;
         font-size: 30px;
 
     }
