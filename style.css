@@ -326,7 +326,9 @@ nav a {
 .spil img,
 .assetliste img,
 .dokumentationsside_spil img,
-.hjemmeside_billede img {
+.hjemmeside_billede img,
+.euro img,
+.euro_doku img {
     height: 108px;
     width: 204px;
 }
@@ -462,6 +464,16 @@ footer a {
         padding: 10px;
 
 
+    }
+
+    .spil img,
+
+    .dokumentationsside_spil img,
+    .hjemmeside_billede img,
+    .euro img,
+    .euro_doku img {
+        height: 216px;
+        width: 408px;
     }
 
     .home_section {
