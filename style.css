@@ -425,8 +425,9 @@ footer a {
 
 @media only screen and (min-width: 600px) {
     body {
-        max-width: 1200px;
-        margin: auto;
+        max-width: 1440px;
+
+
     }
 
     #menu {
@@ -458,7 +459,8 @@ footer a {
 
     }
 
-    .flexbox_portfolio p {
+    .flexbox_portfolio p,
+    .flexbox_cv p {
         width: 600px;
         margin-left: 120px;
         text-align: left;
@@ -488,7 +490,6 @@ footer a {
     }
 
     .spil img,
-
     .dokumentationsside_spil img,
     .hjemmeside_billede img,
     .euro img,
@@ -515,9 +516,7 @@ footer a {
         }
     }
 
-    body {
-        max-width: 1440px;
-    }
+
 
     .splashbillede img {
         height: 224px;
