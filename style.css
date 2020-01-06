@@ -424,6 +424,11 @@ footer a {
 /***----------------------------------------------MEDIAQUERIES INDSTILLINGER-----------------------------------------------------***/
 
 @media only screen and (min-width: 600px) {
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+
     #menu {
         display: flex;
         justify-content: center;
