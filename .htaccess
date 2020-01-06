@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /customers/7/2/1/lunahvalsoe.dk/httpd.www/kea/eksamen/portfolio_luna_hvalsoe/.htpasswd
+Require valid-user
