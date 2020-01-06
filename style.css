@@ -206,6 +206,13 @@ nav a {
     left: 25%;
 }
 
+.logo_forside2 {
+    position: absolute;
+    top: 42.5%;
+    left: 44%;
+    font-size: 10px;
+}
+
 /***-----------------------------------------------------------PORTFOLIO INDSTILLINGER-----------------------------------------------------------***/
 /*typewriter effekt på alle */
 #animation_box_portfolio,
@@ -606,6 +613,13 @@ footer a {
         left: 37%;
         font-size: 30px;
 
+    }
+
+    .logo_forside2 {
+        position: absolute;
+        top: 51%;
+        left: 47.5%;
+        font-size: 15px;
     }
 
     footer {
